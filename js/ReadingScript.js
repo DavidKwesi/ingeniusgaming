@@ -1,8 +1,8 @@
 
 function redirectToEasypage() {
-    window.location.href = "EasyRead.php";
+    window.location.href = "EasyRead.html";
 }
 
 function redirectToHomepage() {
-    window.location.href = "Homepage.php";
+    window.location.href = "index.html";
 }
