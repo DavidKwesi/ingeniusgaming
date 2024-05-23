@@ -28,5 +28,5 @@ document.getElementById('quizScore').textContent = "Your score is: " + score;
 };
 
 function redirectToReadingpage() {
-    window.location.href = "ReadingPage.php";
+    window.location.href = "ReadingPage.html";
 }
