@@ -109,5 +109,5 @@ document.querySelectorAll('.boxOpen').forEach(item => {
 
 
 function redirectToMemorypage() {
-    window.location.href = "MemoryMainPage.php";
+    window.location.href = "MemoryMainPage.html";
 }
