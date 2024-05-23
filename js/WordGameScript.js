@@ -60,5 +60,5 @@ function checkWords() {
 
 
 function redirectToMemorypage() {
-    window.location.href = "MemoryMainPage.php";
+    window.location.href = "MemoryMainPage.html";
 }
