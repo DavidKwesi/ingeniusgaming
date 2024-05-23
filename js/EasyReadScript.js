@@ -26,7 +26,7 @@ window.onload = function() {
 
 
 function redirectToEasyQuizpage() {
-    window.location.href = "EasyQuiz.php";
+    window.location.href = "EasyQuiz.html";
 }
 
 clearInterval(intervalId);
