@@ -1,15 +1,15 @@
 function redirectToDateGame() {
-    window.location.href = "DateGame.php";
+    window.location.href = "DateGame.html";
 }
 
 function redirectToPicturesGame() {
-    window.location.href = "PicturesGame.php";
+    window.location.href = "PicturesGame.html";
 }
 
 function redirectToWordGame() {
-    window.location.href = "WordGame.php";
+    window.location.href = "WordGame.html";
 }
 
 function redirectToHomepage() {
-    window.location.href = "Homepage.php";
+    window.location.href = "index.html";
 }
