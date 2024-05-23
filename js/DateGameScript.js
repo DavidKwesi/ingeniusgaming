@@ -49,5 +49,5 @@ function handleGuessSubmission() {
 }
 
 function redirectToMemoryPage() {
-  window.location.href = "MemoryMainPage.php";
+  window.location.href = "MemoryMainPage.html";
 }
