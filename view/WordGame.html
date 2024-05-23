@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="../css/WordGameStyle.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Word Memory Game</h1>
+        <label for="wordCount">Number of Words to Memorize:</label>
+        <input type="number" id="wordCount">
+        <label for="interval">Interval between Words (in seconds):</label>
+        <input type="number" id="interval">
+        <button class="startTestButton" onclick="startTest()">Start Test</button>
+        <div id="wordDisplay"></div>
+        <input type="text" id="userInput" placeholder="Type words here...">
+        <button class="checkWordsButton" onclick="checkWords()">Check Words</button>
+        <div id="result"></div>
+      </div>
+
+
+
+<div class="input-box">
+    <button class="backbutton" id="loginButton" type="button"onclick="redirectToMemorypage()">EXIT PAGE</button>
+</div>
+
+<script src="../js/WordGameScript.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>

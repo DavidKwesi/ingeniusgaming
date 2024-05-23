@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    box-sizing:border-box;
+    font-family:"Poppins";
+    
+}
+
+body {
+    display:flex;
+}
+
+.sidebar{
+    position:sticky;
+    top:0;
+    left:0;
+    bottom:0;
+    width:120px;
+    height:100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background:#143447;
+}
+
+.sidebar:hover{
+  width: 240px;
+  transition:0.5s;
+}
+
+.logo{
+    height:80px;
+    padding:10px;
+}
+
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 1rem;
+    margin:8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu li:hover, .active{
+    background: gold;
+}
+
+.menu a{
+    color:#fff;
+    font-size:14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu a span{
+   overflow:hidden; 
+}
+
+.menu a i{
+   font-size: 1.2rem; 
+}
+.user--info a i.fa-envelope {
+  color: gold;
+}
+
+
+.logout{
+    position: aboslute;
+    bottom:0;
+    left: 0;
+    width:100%;
+}
+
+*********************************************************************
+
+
+.main{
+    position:relative;
+    background:#ebe9e9;
+    width:100%;
+    padding:1rem;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .stat-box {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+    margin-left:20px;
+    color:gold;
+    margin-top: 100px;
+  }
+  
+  .Daily {
+    background-color: #143447;
+  }
+  
+  .Memory {
+    background-color: #143447;
+  }
+  
+  .Reading {
+    background-color: #143447;
+  }
+
+  .New {
+    background-color: #143447;
+  }
+
+  .stat-box:hover {
+    background-color: #f0f0f0;
+    color:#143447;
+    border: 2px solid gold;
+  }
+  
+  .stat-box span {
+    font-size: 20px;
+  }
+
+
+
+  .main--content{
+    position:relative;
+    background:#ebe9e9;
+    color:#fff;
+    width:100%;
+    padding:1rem;
+}
+
+.header--wrapper img {
+    width:45px;
+    height:50px;
+    cursor:pointer;
+    border-radius: 50%;
+}
+
+.header--wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    background: #143447;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.header--title{
+    color: gold
+}
+
+.user--info{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+

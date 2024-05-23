@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/indexstyle.css"/>
+<title>
+MindSync Login
+</title>
+</head>
+
+<body>
+<div class="logo">
+    <img src="../images/Genius.png" alt="Genius logo">
+</div>
+<div class="container">
+    <div class="curve-shape"></div>
+    <div class="form-box Login">
+        <h2>LOGIN</h2>
+        <form action="sendinfo.php" method="post">
+           <div class="input-box">
+            <input type="text" name="useremail"required>
+            <label for="">Email</label>
+            <i class="fa-solid fa-user"></i>
+           </div>
+
+           <div class="input-box">
+            <input type="password" id="password" name="password" required>
+            <label for="">Password</label>
+            <i class="fa-solid fa-lock"></i>
+           </div>
+           <div class="input-box">
+            <button class="loginbtn" id="loginButton" name="logininfo" type="submit">LOGIN</button>
+           </div>
+           <div class="regi-link">
+            <p>Don't have an account?<a href="index.php" class="SignUpLink"> Sign Up Here!</a></p>
+           </div>
+        </form>
+    </div>
+      <div class="info-content Login">
+       <h2>WELCOME BACK TO MINDSYNC</h2>
+       <p> Continue playing and watch all your hard work pay off!</p>
+      </div>
+</div>
+<script src=../js/indexscript.js></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
